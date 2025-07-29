@@ -1,0 +1,98 @@
+#logo {
+    margin-left: 20vw;
+    position: absolute;
+    margin-top: 1vw;
+}
+
+.magic {
+    font-size: 20vmax;
+    font-family: Candara;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    z-index: 150;
+    margin-left: 3vw;
+}
+
+#magicWend {
+    background-image: url('../images/magic-wand (2).png');
+    height: 30vw;
+    width: 30vw;
+    background-size: cover;
+    position: absolute;
+    margin-top: 19vw;
+    margin-left: 18vw;
+    z-index: 200;
+
+    -webkit-animation: moveMagicWend 1s infinite alternate;
+}
+
+@keyframes moveMagicWend {
+    0% {
+        transform: rotate(-50deg);
+    }
+
+    100% {
+        transform: rotate(50deg);
+    }
+}
+
+.magic span {
+    transform-origin: bottom center;
+}
+
+#M {
+    position: absolute;
+    left: 6vw;
+    top: 8vw;
+    transform: rotate(-30deg);
+}
+
+#a {
+    position: absolute;
+    left: 21vw;
+    top: 4vw;
+    transform: rotate(-20deg);
+}
+
+#g {
+    position: absolute;
+    left: 30vw;
+    transform: rotate(10deg);
+}
+
+#i {
+    position: absolute;
+    left: 42vw;
+    top: 4vw;
+    transform: rotate(20deg);
+}
+
+#c {
+    position: absolute;
+    left: 46vw;
+    top: 9vw;
+    transform: rotate(30deg);
+}
+
+.magicLetter {
+    transition: all;
+    transition-duration: 0.2s;
+    font-size: 24vmax;
+    color: white;
+    text-shadow: 1px 0px 1px #e7a630, 0px 0px 30px white;
+    z-index: 99;
+}
+
+.regularLetter {
+    transition: all;
+    transition-duration: 0.2s;
+    font-size: 16vmax;
+    color: black;
+    text-shadow: 1px 1px 1px #e7a630, 0px 0px 17px white;
+    z-index: 80;
+}
+
+
+
+

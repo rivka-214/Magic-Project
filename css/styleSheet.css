@@ -1,0 +1,188 @@
+table {
+    border: dashed;
+    text-align: center;
+    margin: auto;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+.btn_all {
+    height: 5vmax;
+    width: 5vmax;
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px 3px white;
+    top: 7vh;
+}
+#btn_help {
+
+    right: 15vw;
+}
+#btn_goHome {
+
+    right: 5vw;
+}
+#btn_newGame {
+    text-align: center;
+    font-family: Candara;
+    font-weight: 900;
+    font-size: 1.5vmax;
+    right: 25vw;
+}
+#btn_history{
+    text-align: center;
+    font-family: Candara;
+    font-weight: 900;
+    font-size: 1.5vmax;
+    right: 35vw;
+}
+.btn_all:hover {
+    transform: scale(1.2);
+}
+
+.div_butten {
+    width: 20vw;
+    height: 15vh;
+    display: inline-block;
+    margin-top: 10vh;
+    /*border-left: 30vh solid transparent;*/
+}
+buttenes:hover {
+    width: 300px;
+}
+
+.butten {
+    border-radius: 35%;
+    background-color: white;
+    color: black;
+    width: 12vw;
+    height: 7vw;
+    font-family: fantasy;
+    font-size:2vmax;
+    margin-top: auto -10vh;
+    margin-left: -14vh;
+    box-shadow: 0 1vh 1vh wheat;
+}
+
+.buttenes {
+    text-align: center;
+    width: 15vmax;
+    height: 90vh;
+    color: gray;
+    margin-left: auto 10vh;
+    background-color: #252424;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+    padding: 1%;
+    box-shadow: 0 0vh 1vh 4px #252424;
+}
+@keyframes moveStar {
+    50% {
+        transform: scale(1,1) rotate(-50deg);
+    }
+
+    50% {
+        transform: scale(1.2,1);
+    }
+}
+#s1 {
+    top:10vw;
+    position:absolute;
+    -webkit-animation: moveStar 2s infinite alternate;
+}
+#s2 {
+    -webkit-animation: moveStar 1s infinite alternate;
+}
+#s3 {
+    -webkit-animation: moveStar 3s infinite alternate;
+}
+
+.div_butten:hover {
+    opacity: 0.2;
+    /*transform: scale(1.2);*/
+}
+
+
+.name {
+    margin: auto;
+    text-align: center;
+    /*font-size: 220px;*/
+    color: white;
+    font-family: Candara;
+}
+
+#board {
+    margin: auto;
+    background-color: #949292;
+    height: 90vh;
+    background-image: linear-gradient(to right,gray,#423232);
+}
+
+#footer {
+    background-color: darkkhaki;
+    text-align: center;
+    /*position: absolute;*/
+}
+
+#header {
+    height: 10vh;
+    background-color: #f52727;
+    box-shadow: 0px 4px 9px 0px #3a3030;
+    position: sticky;
+}
+
+button {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+
+.flex {
+    display: flex;
+
+}
+
+finish_icon {
+    width: 15vw;
+    height: 15vw;
+}
+
+.font {
+    font-family: Arial;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.h:hover {
+    opacity: 0.2;
+    transform: scale(1.2);
+}
+
+.h {
+}
+
+.message {
+    font-size: 150px;
+    position: absolute;
+    top: 10vw;
+    left: 18vw;
+    z-index: 1000;
+    color: white;
+    text-shadow: 4px 4px 13px #ff2300, 4px -5px 20px black;
+    /*animation-timing-function:cubic-bezier()*/
+}
+.Instructions {
+    position: absolute;
+    background-color:black;
+    opacity: 0.2;
+    color:black;
+    text-align:center;
+    z-index:100;
+    margin:auto;
+}

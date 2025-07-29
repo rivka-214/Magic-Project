@@ -1,0 +1,25 @@
+﻿td {
+    direction: rtl;
+    width: 20vw;
+    height: 20px;
+    border: solid;
+    border-color: green;
+}
+
+.history {
+    margin-right: 20vw;
+    text-align: center;
+    font-size: 40px;
+}
+
+center {
+    margin-right: 7vw;
+    margin-top: 7vh;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    margin-right: 20vw;
+}
+

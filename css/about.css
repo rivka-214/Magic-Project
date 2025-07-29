@@ -1,0 +1,20 @@
+﻿body {
+
+
+}
+
+
+
+.about {
+    display: inline-block;
+    height: 40vw;
+    text-align: center;
+    font-size: 2vmax;
+    font-family: Candara;
+    transition: width 2s;
+    margin-right: 10vw;
+    position: absolute;
+
+    left: 23vw;
+}
+

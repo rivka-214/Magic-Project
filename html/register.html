@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הרשמה</title>
+    <link rel="stylesheet" href="../css/register&login.css">
+    <link rel="stylesheet" href="../css/styleSheet.css">
+    <script src="../js/register.js"></script>
+</head>
+<body>
+    <br>
+    <br>
+
+  <br>
+  <br>
+<div class="container">
+    <h1>הרשמה לאתר</h1>
+    <form>
+    <label for="name">שם</label>
+    <input type="text" id="name" name="name" required>
+    <label for="email">מייל</label>
+    <input type="email" id="email" name="email" required>
+    <label for="password">סיסמה</label>
+    <input type="password" id="password" name="password" required>
+    <div class="checkbox">
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms" >אני מסכים לתנאי השימוש של האתר</label>
+    </div>
+   
+</form>
+<input type="submit" id="sumbit_" value="כניסה" onclick="logIn()" />
+<p>משתמש קיים?<a href="login.html">כניסה לחשבון</a> </p>
+</div>
+</body>
+</html>
